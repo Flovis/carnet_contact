@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* add a font here */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 30px;
+
+    background-color: #0880d6;
+    color: white;
+    height: 80px;
+}
+
+.principal{
+   display: flex;
+   gap: 30px;
+   margin: auto;
+   width: 90%;
+   margin-top: 20px;
+
+
+}
+.section-formulaire{
+    width: 45%;
+    height: 500px;
+    border: 1px solid rgb(152, 143, 143);
+}
+.section-resultat{
+    width: 65%;
+    height: 500px;
+    border: 1px solid rgb(152, 143, 143);
+
+}
+.header-formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0880D6;
+    color: #fff;
+    height: 50px;
+}
+.header-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0880D6;
+    color: #fff;
+    height: 50px; 
+
+}
