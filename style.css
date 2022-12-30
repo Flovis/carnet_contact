@@ -6,6 +6,7 @@
 body{
     /* add a font here */
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 
 }
 
@@ -16,8 +17,16 @@ nav{
     padding: 0px 30px;
 
     background-color: #0880d6;
-    color: white;
-    height: 80px;
+    height: 70px;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
 }
 
 .principal{
@@ -31,29 +40,49 @@ nav{
 }
 .section-formulaire{
     width: 45%;
-    height: 500px;
     border: 1px solid rgb(152, 143, 143);
 }
 .section-resultat{
     width: 65%;
-    height: 500px;
     border: 1px solid rgb(152, 143, 143);
 
 }
 .header-formulaire{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0880D6;
     color: #fff;
     height: 50px;
+    font-size: 20px;
 }
 .header-contact{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0880D6;
     color: #fff;
-    height: 50px; 
+    height: 50px;
+    font-size: 20px;
 
+}
+
+/* Matou */
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+input{
+    width: 100%;
+    height: 25px;
+}
+.label{
+    color: #0880D6;
+    margin-bottom: 10px;
 }
