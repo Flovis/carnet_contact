@@ -44,6 +44,7 @@ nav{
 .section-resultat{
     width: 65%;
 
+
 }
 .header-formulaire{
     font-family: 'Poppins', sans-serif;
@@ -145,6 +146,7 @@ textarea{
     border: 2px dashed #0880D6;
 
 }
+
 .container-drap .contenu{
     width: 144px;
 }
