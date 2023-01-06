@@ -401,7 +401,7 @@ form.addEventListener("submit", (e) => {
         //   url: fileUrl,
         // };
         // tabData.splice(i, 1, nouvelle);
-        // console.log(tabData);
+
 
         tabData[i] = {
           prenom: prenomContact.value,
