@@ -4,7 +4,7 @@
 }
 
 body{
-    /* add a font here */
+   
     font-size: 15px;
 
 }
@@ -83,6 +83,21 @@ input{
     border: 1px solid #C4C4C4;;
     margin-top: 10px;
     font-size: 16px;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 3px;
+
+}
+select{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #C4C4C4;;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 3px;
+    /* background-color: #fff;   */
 }
 
 label{
@@ -99,6 +114,9 @@ textarea{
     height: 115px;
     border: 1px solid #C4C4C4;
     width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 3px;
 }
 .container-drap{
     height: 125px;
@@ -108,6 +126,24 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
+
+}
+.container-drap-event{
+    height: 125px;
+    width: 100%;
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #555555;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px dashed #0880D6;
 
 }
 
@@ -166,7 +202,7 @@ textarea{
     display: flex;
     justify-content: flex-start;
     
-    height: 200px;
+    /* height: 200px; */
     border: 1px solid #C4C4C4;
     padding: 15px;
 }
@@ -191,14 +227,20 @@ textarea{
    justify-content: center;
    align-items: center; 
 }
-.container-image img{
-    width: 60%;
+.img-contact{
+    width: 130px;
     border-radius: 50%;
+    height: 130px;
 
 }
 .container-text-identifiant{
     display: flex;
     justify-content: space-between;
+}
+.names{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
 }
 .icon-side{
     display: flex;
@@ -206,7 +248,52 @@ textarea{
 }
 .fa-user-pen{
     color: #555555;
+    cursor: pointer;
 }
 .fa-trash-can{
     color: #FF3838;
+    cursor: pointer;
+}
+.errorInput{
+    border: 2px solid #FF3838;
+}
+.ok{
+    color:  #5bdf7e;
+}
+.error{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #FF3838;
+}
+
+.container-drap img{
+    height: 110px;
+    width: 50%;
+    object-fit: cover;
+}
+.choice-file{
+    color: #0880D6;
+    cursor: pointer;
+}
+.droAreaError{
+    border: 2px dashed #FF3838;   
+}
+.bio{
+    text-align: justify;
+}
+@media (max-width: 760px) {
+    .principal{
+        display: flex;
+        flex-direction: column;
+       
+     } 
+     .section-formulaire{
+        width: 100%;
+        /* border: 1px solid #C4C4C4; */
+    }
+    .section-resultat{
+        width: 100%;
+    }
 }
