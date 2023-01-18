@@ -28,15 +28,18 @@
             <div class="header-formulaire">
                 <div>Formulaire de contact</div>
             </div>
-            <div class="formulaire">
+            <div class="formulaire"> 
                 <form action="" id="form">
+                    <div class="alert alert-danger remove" role="alert">
+                       
+                      </div>
                     <div class="">
                         <div class="label">
                             <label for="prenom" class="">Prénom</label>
                         </div>
                         <div class="">
                             <input type="text" id="prenom">
-                            <span class="error"></span>
+                            <span class="prenom-no-valide remove"></span>
                         </div>
                     </div>
                     <div class="">
@@ -45,7 +48,7 @@
                         </div>
                         <div>
                             <input type="text" id="nom">
-                            <span class="error"></span>
+                            <span class="nom-no-valide remove"></span>
                         </div>
                     </div>
                     <div class="">
@@ -54,6 +57,7 @@
                         </div>
                         <div>
                             <input type="tel" id="telephone" >
+                            <span class="tel-no-valide remove"></span>
                         </div>
                     </div>
                     <div class="">
@@ -74,6 +78,7 @@
                         </div>
                         <div>
                             <input type="email" id="email" >
+                            <span class="mail-no-valide remove"></span>
                         </div>
                     </div>
                     <div class="">
@@ -94,13 +99,14 @@
                                 <input type="file" hidden class="inputFile">
                             </div>
                         </div>
+                    <span class="image-no-valide remove"></span>
                     </div>
                     <div class="container-btn">
                         <div class="btn-blue">
-                            <button type="submit" class="btn-creer" >Créer</button>
+                            <button type="submit" class="btn-creer" ></button>
                         </div>
                         <div class="btn-red">
-                            <button type="reset" class="btn-renit" id="btn-reset">Rénit</button>
+                            <button type="reset" class="btn-renit" id="btn-reset"></button>
                         </div>
 
                     </div>

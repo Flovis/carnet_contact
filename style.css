@@ -297,3 +297,20 @@ textarea{
         width: 100%;
     }
 }
+/*  */
+.alert{
+    text-align: center;
+}
+.remove{
+    display: none;
+}
+.add{
+    display: block;
+}
+.mail-no-valide, .tel-no-valide, .image-no-valide, .nom-no-valide, .prenom-no-valide{
+    color: #FF3838;
+}
+.email{
+    font-size: 14px;
+    font-weight: bold;
+}
