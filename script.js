@@ -83,11 +83,11 @@ prenom.addEventListener("blur", () => {
 let validMail = false;
 email.addEventListener("blur", function () {
   const erreurMAil = document.querySelector(".mail-no-valide");
-  const emailRegex =
-    /^(?=.{1,256})(?=.{1,64}@.{1,255}$)(?=^[^@]*@[^@]*$)(?=^[\w!#$%&'*+\-/=?^_`{|}~]+(\.[\w!#$%&'*+\-/=?^_`{|}~]+)*@[\w]([\w-]*[\w])?(\.[\w]([\w-]*[\w])?)*$)(?=^[^\s]*$)(?=.*\.com$)/;
+  const emailRegex = /^[a-zA-Z0-9._%+-][a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
   if (!emailRegex.test(email.value)) {
     erreurMAil.classList.remove("remove");
-    erreurMAil.innerHTML = "cette email est non valide";
+    erreurMAil.innerHTML = "Cette email est non valide";
     email.classList.add("errorInput");
   } else {
     erreurMAil.classList.add("remove");
@@ -125,7 +125,7 @@ telephone.addEventListener("blur", function () {
     }
   } else {
     validTel = false;
-    erreurTel.innerHTML = "le Tel doit contenir 10 chiffres";
+    erreurTel.innerHTML = "Le Tel doit contenir 10 chiffres";
     erreurTel.classList.remove("remove");
     telephone.classList.add("errorInput");
   }
